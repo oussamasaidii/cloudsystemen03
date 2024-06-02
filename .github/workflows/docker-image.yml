@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: oussamasaidi1/my-php-apache-app:latest
+          tags: oussamasaidi1/mariadb:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
