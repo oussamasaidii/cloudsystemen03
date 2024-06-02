@@ -12,7 +12,7 @@ services:
       - mariadb
 
   mariadb:
-    image: oussamasaidi1/my-php_apache-app:latest
+    image: oussamasaidi1/mariadb:latest
     restart: always
     container_name: mariadb
     ports:
